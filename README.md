@@ -23,3 +23,8 @@ This project is a simple API developed with **Django** and **Django REST Framewo
 | `/`                                           | GET    | Returns a status 200 OK.                                                                       |
 | `/calculate/<str:value>/`                    | GET    | Calculates the income tax based on the provided income without deductions.                     |
 | `/calculate/<str:value>/<str:deductions>/`   | GET    | Calculates the income tax based on the provided income and deductions. Returns either "Isento" if exempt or the calculated tax amount. |
+
+**Base URL:**
+
+   ```bash
+   https://devpaulorc.pythonanywhere.com/
